@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill-rule="evenodd">
+  <title>Lighttable</title>
+  <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+  <defs>
+    <mask id="slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="white" />
+      <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+    </mask>
+  </defs>
+  <path fill="#414B59" mask="url(#slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+  <path fill="#94631D" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+</svg>

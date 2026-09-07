@@ -1,0 +1,43 @@
+name: Prepare draft release
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  draft:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Verify version tag
+        env:
+          REF_TYPE: ${{ github.ref_type }}
+          REF_NAME: ${{ github.ref_name }}
+        run: |
+          version=$(python3 -c 'import tomllib; print(tomllib.load(open("Cargo.toml", "rb"))["package"]["version"])')
+          test "$REF_TYPE" = tag
+          test "$REF_NAME" = "v$version"
+      - name: Build and validate release artifacts
+        run: |
+          python3 scripts/package-release.py source /tmp/lighttable-source
+          docker build --target artifacts --output type=local,dest=dist/ubuntu -f /tmp/lighttable-source/packaging/Dockerfile /tmp/lighttable-source
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: verified-release-assets
+          path: dist/ubuntu/
+          if-no-files-found: error
+      - name: Create unpublished alpha prerelease draft
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$RELEASE_TAG" dist/ubuntu/*.tar.gz dist/ubuntu/*.zip dist/ubuntu/SHA256SUMS \
+            --verify-tag --draft --prerelease --title "Lighttable $RELEASE_TAG — Linux alpha" \
+            --notes-file docs/RELEASE_NOTES.md

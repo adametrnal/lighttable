@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="580" viewBox="0 0 1000 580">
+  <rect width="1000" height="580" rx="24" fill="#11151A" />
+  <svg width="200" height="200" viewBox="0 0 64 64" fill-rule="evenodd" x="48" y="48">
+    <title>Lighttable</title>
+    <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+    <defs>
+      <mask id="hero-slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <rect width="64" height="64" fill="white" />
+        <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+      </mask>
+    </defs>
+    <rect x="1" y="1" width="62" height="62" rx="14" fill="#242B34" />
+    <path fill="#FFF0CC" mask="url(#hero-slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+    <path fill="#E2B76B" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+  </svg>
+  <text x="296" y="137" fill="#F3EFE5" font-family="DejaVu Sans, sans-serif" font-size="48" letter-spacing="3">LIGHTTABLE</text>
+  <text x="299" y="177" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="18">A little light for your photographs.</text>
+  <path d="M48 284H952" stroke="#303740" />
+  <text x="48" y="324" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" letter-spacing="2">THE MARK</text>
+  <rect x="48" y="348" width="150" height="150" rx="18" fill="#1B2027" />
+  <rect x="216" y="348" width="150" height="150" rx="18" fill="#F5F1E8" />
+  <svg width="96" height="96" viewBox="0 0 64 64" fill-rule="evenodd" x="75" y="375">
+    <title>Lighttable</title>
+    <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+    <defs>
+      <mask id="dark-slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <rect width="64" height="64" fill="white" />
+        <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+      </mask>
+    </defs>
+    <path fill="#FFF0CC" mask="url(#dark-slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+    <path fill="#E2B76B" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+  </svg>
+  <svg width="96" height="96" viewBox="0 0 64 64" fill-rule="evenodd" x="243" y="375">
+    <title>Lighttable</title>
+    <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+    <defs>
+      <mask id="light-slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <rect width="64" height="64" fill="white" />
+        <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+      </mask>
+    </defs>
+    <path fill="#414B59" mask="url(#light-slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+    <path fill="#94631D" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+  </svg>
+  <text x="123" y="524" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" text-anchor="middle">Dark</text>
+  <text x="291" y="524" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" text-anchor="middle">Light</text>
+  <text x="422" y="324" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" letter-spacing="2">APP ICON · ACTUAL SIZES</text>
+  <svg width="16" height="16" viewBox="0 0 64 64" fill-rule="evenodd" x="432" y="415.0">
+    <title>Lighttable</title>
+    <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+    <defs>
+      <mask id="size16-slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <rect width="64" height="64" fill="white" />
+        <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+      </mask>
+    </defs>
+    <rect x="1" y="1" width="62" height="62" rx="14" fill="#242B34" />
+    <path fill="#FFF0CC" mask="url(#size16-slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+    <path fill="#E2B76B" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+  </svg>
+  <text x="440.0" y="524" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" text-anchor="middle">16</text>
+  <svg width="24" height="24" viewBox="0 0 64 64" fill-rule="evenodd" x="489" y="411.0">
+    <title>Lighttable</title>
+    <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+    <defs>
+      <mask id="size24-slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <rect width="64" height="64" fill="white" />
+        <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+      </mask>
+    </defs>
+    <rect x="1" y="1" width="62" height="62" rx="14" fill="#242B34" />
+    <path fill="#FFF0CC" mask="url(#size24-slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+    <path fill="#E2B76B" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+  </svg>
+  <text x="501.0" y="524" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" text-anchor="middle">24</text>
+  <svg width="32" height="32" viewBox="0 0 64 64" fill-rule="evenodd" x="554" y="407.0">
+    <title>Lighttable</title>
+    <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+    <defs>
+      <mask id="size32-slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <rect width="64" height="64" fill="white" />
+        <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+      </mask>
+    </defs>
+    <rect x="1" y="1" width="62" height="62" rx="14" fill="#242B34" />
+    <path fill="#FFF0CC" mask="url(#size32-slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+    <path fill="#E2B76B" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+  </svg>
+  <text x="570.0" y="524" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" text-anchor="middle">32</text>
+  <svg width="48" height="48" viewBox="0 0 64 64" fill-rule="evenodd" x="627" y="399.0">
+    <title>Lighttable</title>
+    <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+    <defs>
+      <mask id="size48-slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <rect width="64" height="64" fill="white" />
+        <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+      </mask>
+    </defs>
+    <rect x="1" y="1" width="62" height="62" rx="14" fill="#242B34" />
+    <path fill="#FFF0CC" mask="url(#size48-slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+    <path fill="#E2B76B" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+  </svg>
+  <text x="651.0" y="524" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" text-anchor="middle">48</text>
+  <svg width="64" height="64" viewBox="0 0 64 64" fill-rule="evenodd" x="716" y="391.0">
+    <title>Lighttable</title>
+    <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+    <defs>
+      <mask id="size64-slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <rect width="64" height="64" fill="white" />
+        <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+      </mask>
+    </defs>
+    <rect x="1" y="1" width="62" height="62" rx="14" fill="#242B34" />
+    <path fill="#FFF0CC" mask="url(#size64-slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+    <path fill="#E2B76B" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+  </svg>
+  <text x="748.0" y="524" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" text-anchor="middle">64</text>
+  <svg width="128" height="128" viewBox="0 0 64 64" fill-rule="evenodd" x="821" y="359.0">
+    <title>Lighttable</title>
+    <desc>Two photographic slide mounts on a light table, cream behind warm amber.</desc>
+    <defs>
+      <mask id="size128-slide-separation" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <rect width="64" height="64" fill="white" />
+        <rect x="6" y="21" width="37" height="38" rx="8" fill="black" />
+      </mask>
+    </defs>
+    <rect x="1" y="1" width="62" height="62" rx="14" fill="#242B34" />
+    <path fill="#FFF0CC" mask="url(#size128-slide-separation)" d="M30 8h21a5 5 0 0 1 5 5v23a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V13a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2Z" />
+    <path fill="#E2B76B" d="M14 24h21a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5V29a5 5 0 0 1 5-5Zm3 6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V32a2 2 0 0 0-2-2Z" />
+  </svg>
+  <text x="885.0" y="524" fill="#9DA6B2" font-family="DejaVu Sans, sans-serif" font-size="12" text-anchor="middle">128</text>
+</svg>

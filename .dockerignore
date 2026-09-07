@@ -1,0 +1,18 @@
+# Build only from an explicit source-export context; this also protects ad hoc builds.
+.git
+.tools
+.test-data
+.agents
+.codex
+.claude
+target
+dist
+TODO.md
+PROJECT_PLAN.md
+docs/SCROLL_DEMO.md
+**/demos
+**/__pycache__
+*.lrcat*
+*.lrdata
+*.sqlite*
+.env*

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Lighttable
+GenericName=Photo Catalog Browser
+Comment=Browse and cull photographs from Lightroom Classic catalogs
+Exec=lighttable %f
+Icon=lighttable-catalog
+Terminal=false
+Categories=Graphics;Photography;
+Keywords=photo;photography;Lightroom;catalog;culling;
+StartupNotify=true
+StartupWMClass=lighttable-catalog
